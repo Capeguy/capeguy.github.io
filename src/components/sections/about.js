@@ -135,7 +135,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
+              Hello! My name is Benjamin and I enjoy creating things that live on the internet. My
               interest in web development started back in 2012 when I decided to try editing custom
               Tumblr themes — turns out hacking together a custom reblog button taught me a lot
               about HTML &amp; CSS!
@@ -173,7 +173,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/me.png"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
