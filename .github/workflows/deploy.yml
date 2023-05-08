@@ -38,3 +38,4 @@ jobs:
 
       - name: Deploy to GH Pages Branch (main) 🔧 # To deploy website to GH Pages
         run: npm run deploy
+        continue-on-error: true
