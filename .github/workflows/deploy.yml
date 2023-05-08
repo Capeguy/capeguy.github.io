@@ -37,5 +37,7 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Deploy to GH Pages Branch (main) 🔧 # To deploy website to GH Pages
+        env:
+          NODE_OPTIONS: --openssl-legacy-provider
         run: npm run deploy
         continue-on-error: true
