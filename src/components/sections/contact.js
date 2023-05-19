@@ -61,11 +61,14 @@ const Contact = () => {
 
       <p>
         Looking ahead, I am committed to my mission of promoting digital transformation and the
-        growth it can facilitate. My current projects, including co-founding EMQ2, embody my
-        dedication to empowering organizations to leverage technology for their benefit. I foresee a
-        future where we can continue to build Digital Factories, cultivating a new generation of
-        tech-savvy professionals, fostering innovation from within, and transforming organizations
-        at their core.
+        growth it can facilitate.
+      </p>
+      <p>
+        My current projects, including co-founding EMQ2, embody my dedication to empowering
+        organizations to leverage technology for their benefit. I foresee a future where we can
+        continue to build Digital Factories, cultivating a new generation of tech-savvy
+        professionals, fostering innovation from within, and transforming organizations at their
+        core.
       </p>
 
       <p>

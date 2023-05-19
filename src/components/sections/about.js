@@ -132,7 +132,6 @@ const About = () => {
     '.NET Framework',
     'JavaScript (ES6+)',
     'TypeScript',
-    'React',
     'Node.js',
     'Python',
   ];
@@ -147,21 +146,26 @@ const About = () => {
             <p>
               Inspired by the transformative power of technology, I devoted my career to harnessing
               its potential to revolutionize operations, maximize efficiency, and foster innovation.
+            </p>
+            <p>
               My journey, sparked by a fascination with software engineering and full-stack
               development, has led me to influential roles, advising and steering several
-              organizations towards digital maturity. My mission is to facilitate growth and
-              efficiency, reducing costs and unlocking organizations' true potential through the
-              power of digital transformation.
+              organizations towards digital maturity.
             </p>
-
+            <p>
+              My mission is to facilitate growth and efficiency, reducing costs and unlocking
+              organizations' true potential through the power of digital transformation.
+            </p>
             <p>
               Fast-forward to today, and I’ve had the privilege of playing key roles in various tech
               companies, a pioneering learning systems group, and an innovative start-up. I've held
               advisory positions and have co-founded a systems integration company and a digital
-              transformation firm. My main focus these days is driving digital transformation and
-              building accessible, inclusive digital infrastructures at{' '}
-              <a href="https://us.mullenlowe.com/">EMQ2</a>, for an array of high-profile clients,
-              including several in the public sector.
+              transformation firm.
+            </p>
+            <p>
+              My main focus these days is driving digital transformation and building accessible,
+              inclusive digital infrastructures at <a href="https://emq2.io/">EMQ2</a>, for an array
+              of high-profile clients, including several in the public sector.
               {/* Fast-forward to today, and I’ve had the privilege of working at{' '}
               <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
               <a href="https://starry.com/">a start-up</a>,{' '}
@@ -175,7 +179,7 @@ const About = () => {
             <p>
               I also recently started lecturing at{' '}
               <a href="https://www.np.edu.sg/schools-courses/academic-schools/school-of-infocomm-technology">
-                School of InfoComm Technology @ Ngee Ann Polytechnic
+                Ngee Ann Polytechnic
               </a>{' '}
               , where I get to inspire the next generation of tech innovators, sharing my passion
               and insights into digital transformation, systems integration, and the vital role of
