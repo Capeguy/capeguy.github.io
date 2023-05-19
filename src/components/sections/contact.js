@@ -60,8 +60,19 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        Although I’m not currently looking for any new opportunities, my inbox is always open.
-        Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+        Looking ahead, I am committed to my mission of promoting digital transformation and the
+        growth it can facilitate. My current projects, including co-founding EMQ2, embody my
+        dedication to empowering organizations to leverage technology for their benefit. I foresee a
+        future where we can continue to build Digital Factories, cultivating a new generation of
+        tech-savvy professionals, fostering innovation from within, and transforming organizations
+        at their core.
+      </p>
+
+      <p>
+        Whether you're interested in discussing potential opportunities, seeking advice, or simply
+        curious about the realm of digital transformation, I welcome all inquiries. Let's connect
+        and perhaps share insights over a cup of coffee or tea. I look forward to exploring the
+        possibilities that our collaboration might bring.
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>

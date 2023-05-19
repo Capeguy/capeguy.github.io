@@ -59,15 +59,18 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is</h1>;
+  const one = <h1>Greetings! I am</h1>;
   const two = <h2 className="big-heading">Benjamin Lau.</h2>;
   const three = <h3 className="big-heading">I build Systems & Teams.</h3>;
   const four = (
     <>
       <p>(WORK-IN-PROGRESS)</p>
       <p>
-        I’m a software engineer at heart, specializing in building and designing scalable systems
-        and teams for enterprises.
+        I'm an IT leader passionate about orchestrating digital transformations to empower
+        organizations and spur growth. As a co-founder of forward-thinking entities, I've been on
+        the forefront of delivering client-centric solutions and integrating complex systems for
+        prestigious clients in the public sector. I leverage innovative practices such as Enterprise
+        Design Thinking to ensure the delivery of top-tier services.
       </p>
       <p>
         Currently, I’m focused on helping clients achieve digital transformation through the
