@@ -1,7 +1,7 @@
 ---
 date: '2022-12-01'
 title: 'Partner'
-company: 'EMQ2 Technology Services'
+company: 'EMQ2'
 location: 'Singapore'
 range: 'Dec 2022 - Present'
 url: 'https://emq2.io/'
