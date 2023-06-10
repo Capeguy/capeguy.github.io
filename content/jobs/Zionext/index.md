@@ -1,7 +1,7 @@
 ---
 date: '2020-01-01'
 title: 'Technical Manager'
-company: 'Zionext Pte Ltd'
+company: 'Zionext'
 location: 'Singapore & Chennai (India)'
 range: '2020 - 2022'
 url: 'https://zionext.com/'

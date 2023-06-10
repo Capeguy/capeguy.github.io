@@ -1,13 +1,15 @@
 ---
 date: '2022-12-01'
 title: 'Partner'
-company: 'EMQ2 Technology Services Pte Ltd'
+company: 'EMQ2 Technology Services'
 location: 'Singapore'
 range: 'Dec 2022 - Present'
 url: 'https://emq2.io/'
 ---
 
-- Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more
-- Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements
-- Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders
-- Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship
+- Led the strategic vision and decision-making for a portfolio of highly-sensitive digital transformation projects, valued at over SGD 1 million, impacting millions of stakeholders, including public servants and the general public.
+- Orchestrated the development and implementation of Gateway and Platform-based systems facilitating secure and seamless transactions related to User Authentication through Singapore's National Digital Identity Initiatives and Payment Systems, encompassing widely recognized platforms and widely adopted payment methods.
+- Played a pivotal role in ensuring the reliability and trustworthiness of systems supporting millions of daily transactions, maintaining a 99.9% uptime and delivering uninterrupted services to government agencies and citizens. 
+- Catalyzed transformative digital initiatives, revolutionizing service delivery and driving organizational growth in the digital age, with a profound impact on millions of individuals.
+- Pioneered the establishment of robust systems and processes, playing a pivotal role in achieving ISO 27001 Certification for Information Security Management Systems, instilling a culture of rigorous data protection and privacy across the organization.
+- Spearheaded the development and implementation of scalable digital platforms and streamlined workflows, resulting in significant operational efficiencies, improved data accuracy, and enhanced collaboration across departments, leading to a 30% improvement in cross-department collaboration and a 20% reduction in project delivery time.
