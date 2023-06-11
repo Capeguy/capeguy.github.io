@@ -7,7 +7,7 @@ tech:
   - AWS
   - Cloud Computing
 company: 'Amazon Web Services'
-showInProjects: true
+showInProjects: false
 ---
 
 Certified to build secure and robust solutions that are scalable, resilient, efficient, and fault-tolerant using AWS Well-Architected Framework.

@@ -5,6 +5,7 @@ title: 'Enterprise Design Thinking Co-Creator'
 external: 'https://www.credly.com/badges/623cb4a9-6021-4543-8fe2-ebb426ccf8a2/public_url'
 tech:
   - Enterprise Design Thinking
+  - IBM
 company: 'IBM'
 showInProjects: true
 ---

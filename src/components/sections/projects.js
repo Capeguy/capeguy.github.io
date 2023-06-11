@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Link, useStaticQuery, graphql } from 'gatsby';
+import { useStaticQuery, graphql, navigate } from 'gatsby';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { srConfig } from '@config';
@@ -179,7 +179,7 @@ const Projects = () => {
           node {
             frontmatter {
               title
-              tech
+              company
               github
               external
             }
@@ -190,7 +190,7 @@ const Projects = () => {
     }
   `);
 
-  const [showMore, setShowMore] = useState(false);
+  const [showMore] = useState(false);
   const revealTitle = useRef(null);
   const revealCertificationsLink = useRef(null);
   const revealProjects = useRef([]);
@@ -213,7 +213,7 @@ const Projects = () => {
 
   const projectInner = node => {
     const { frontmatter, html } = node;
-    const { github, external, title, tech } = frontmatter;
+    const { github, external, title, company } = frontmatter;
 
     return (
       <div className="project-inner">
@@ -252,11 +252,9 @@ const Projects = () => {
         </header>
 
         <footer>
-          {tech && (
+          {company && (
             <ul className="project-tech-list">
-              {tech.map((tech, i) => (
-                <li key={i}>{tech}</li>
-              ))}
+              <li key="1">{company}</li>
             </ul>
           )}
         </footer>
@@ -269,14 +267,6 @@ const Projects = () => {
       <h2 className="numbered-heading" ref={revealTitle}>
         Certifications
       </h2>
-
-      <Link
-        className="inline-link certifications-link"
-        to="/certifications"
-        ref={revealCertificationsLink}
-      >
-        view the full list
-      </Link>
 
       <ul className="projects-grid">
         {prefersReducedMotion ? (
@@ -310,9 +300,13 @@ const Projects = () => {
           </TransitionGroup>
         )}
       </ul>
-
-      <button className="more-button" onClick={() => setShowMore(!showMore)}>
-        Show {showMore ? 'Less' : 'More'}
+      <button
+        className="more-button certifications-link"
+        to="/certifications"
+        ref={revealCertificationsLink}
+        onClick={() => navigate('/certifications')}
+      >
+        View All
       </button>
     </StyledProjectsSection>
   );
