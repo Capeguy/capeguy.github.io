@@ -2,11 +2,11 @@
 date: '2015-12-03'
 title: 'Certified ScrumMaster'
 # github: 'https://github.com/bchiang7/time-to-have-more-fun'
-external: 'https://www.credly.com/badges/aa884590-65f4-499f-ae14-4c1c1b9ac5ca/public_url'
+external: '/Lau Jun Hao Benjamin-ScrumAlliance_CSM_Certificate.pdf'
 tech:
   - Agile Methodology
   - Agile Software Development
-company: 'NCIF'
+company: 'NCIF & Scrum Alliance'
 showInProjects: true
 ---
 

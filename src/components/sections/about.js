@@ -130,10 +130,8 @@ const About = () => {
     'DevSecOps',
     'Spring Framework',
     '.NET Framework',
-    'JavaScript (ES6+)',
-    'TypeScript',
-    'Node.js',
-    'Python',
+    'OpenAI',
+    'Large Language Models',
   ];
 
   return (

@@ -2,11 +2,11 @@ import { css } from 'styled-components';
 
 const variables = css`
   :root {
-    --dark-navy: #020c1b;
-    --navy: #252526;
-    --light-navy: #1f1f1f;
+    --dark-navy: #151515;
+    --navy: #202020;
+    --light-navy: #1a1a1a;
     --lightest-navy: #233554;
-    --navy-shadow: rgba(27, 27, 28, 0.7);
+    --navy-shadow: rgba(14, 14, 15, 0.7);
     --dark-slate: #495670;
     --slate: #8892b0;
     --light-slate: #a8b2d1;
