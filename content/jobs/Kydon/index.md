@@ -1,7 +1,7 @@
 ---
 date: '2019-01-01'
 title: 'Technical Lead of Operations & Support'
-company: 'Kydon Learning Systems Group'
+company: 'Kydon'
 location: 'Singapore & Malaysia'
 range: '2019 - 2020'
 url: 'https://kydonlsg.com/'
