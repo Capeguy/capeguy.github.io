@@ -6,7 +6,7 @@ external: 'https://www.credly.com/badges/aa884590-65f4-499f-ae14-4c1c1b9ac5ca/pu
 tech:
   - AWS
   - Cloud Computing
-company: ''
+company: 'Amazon Web Services'
 showInProjects: true
 ---
 
