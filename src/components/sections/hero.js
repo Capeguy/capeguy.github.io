@@ -61,12 +61,12 @@ const Hero = () => {
 
   const one = <h1>Greetings! I am</h1>;
   const two = <h2 className="big-heading">Benjamin Lau.</h2>;
-  const three = <h3 className="big-heading">I deliver Digital Transformation for Enterprise.</h3>;
+  const three = <h3 className="big-heading">I deliver Digital Transformation.</h3>;
   const four = (
     <>
       <p>
-        I'm an IT leader passionate about orchestrating digital transformations to empower
-        organizations and spur growth.
+        I'm a strategic digital innovator passionate about orchestrating digital transformations to
+        empower organizations and spur growth.
       </p>
       <p>
         As a co-founder of forward-thinking entities, I've been on the forefront of delivering

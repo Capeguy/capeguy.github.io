@@ -1,4 +1,5 @@
 module.exports = {
+  name: 'Benjamin Lau',
   email: 'contact@capeguy.net',
 
   socialMedia: [
@@ -33,9 +34,13 @@ module.exports = {
       name: 'Experience',
       url: '/#jobs',
     },
+    // {
+    //   name: 'Work',
+    //   url: '/#projects',
+    // },
     {
-      name: 'Work',
-      url: '/#projects',
+      name: 'Certifications',
+      url: '/#certifications',
     },
     {
       name: 'Contact',

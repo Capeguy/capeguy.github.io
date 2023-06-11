@@ -5,5 +5,7 @@ external: 'https://www.coursera.org/account/accomplishments/professional-cert/TN
 tech:
   -
 company: Google Cloud
-showInProjects: false
+showInProjects: true
 ---
+
+Proficiently handle administrative tasks within the G Suite admin console, provide guidance on optimal organizational structure, user and service management, effectively monitor security events and risks, implement measures to safeguard users and organizational data.

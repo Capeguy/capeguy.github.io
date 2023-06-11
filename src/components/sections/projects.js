@@ -16,7 +16,7 @@ const StyledProjectsSection = styled.section`
     font-size: clamp(24px, 5vw, var(--fz-heading));
   }
 
-  .archive-link {
+  .certifications-link {
     font-family: var(--font-mono);
     font-size: var(--fz-sm);
     &:after {
@@ -192,7 +192,7 @@ const Projects = () => {
 
   const [showMore, setShowMore] = useState(false);
   const revealTitle = useRef(null);
-  const revealArchiveLink = useRef(null);
+  const revealCertificationsLink = useRef(null);
   const revealProjects = useRef([]);
   const prefersReducedMotion = usePrefersReducedMotion();
 
@@ -202,7 +202,7 @@ const Projects = () => {
     }
 
     sr.reveal(revealTitle.current, srConfig());
-    sr.reveal(revealArchiveLink.current, srConfig());
+    sr.reveal(revealCertificationsLink.current, srConfig());
     revealProjects.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 100)));
   }, []);
 
@@ -265,10 +265,16 @@ const Projects = () => {
   };
 
   return (
-    <StyledProjectsSection>
-      <h2 ref={revealTitle}>Certifications</h2>
+    <StyledProjectsSection id="certifications">
+      <h2 className="numbered-heading" ref={revealTitle}>
+        Certifications
+      </h2>
 
-      <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
+      <Link
+        className="inline-link certifications-link"
+        to="/certifications"
+        ref={revealCertificationsLink}
+      >
         view the full list
       </Link>
 
