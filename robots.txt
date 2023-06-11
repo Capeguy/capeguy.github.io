@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://portfolio.capeguy.net/sitemap.xml
-Host: https://portfolio.capeguy.net
+Sitemap: https://capeguy.net/sitemap.xml
+Host: https://capeguy.net
