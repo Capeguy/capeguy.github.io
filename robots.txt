@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://capeguy.net/sitemap.xml
-Host: https://capeguy.net
+Sitemap: https://benlau.me/sitemap.xml
+Host: https://benlau.me
