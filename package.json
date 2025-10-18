@@ -21,7 +21,7 @@
     "clean": "gatsby clean",
     "prepare": "husky install",
     "lint-staged": "lint-staged",
-    "deploy": "gatsby build && echo -n 'capeguy.net' > public/CNAME && gh-pages -b main -d public -m 'GitHub Pages Auto Deploy' -u 'Benjamin Lau <capeguy@users.noreply.github.com>'"
+    "deploy": "gatsby build && echo -n 'benlau.me' > public/CNAME && gh-pages -b main -d public -m 'GitHub Pages Auto Deploy' -u 'Benjamin Lau <capeguy@users.noreply.github.com>'"
   },
   "lint-staged": {
     "*.{js,css,json,md}": [

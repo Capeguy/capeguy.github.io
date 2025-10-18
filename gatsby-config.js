@@ -4,8 +4,8 @@ module.exports = {
   siteMetadata: {
     title: 'Benjamin Lau',
     description:
-      'Benjamin is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://capeguy.net', // No trailing slash allowed!
+      'Benjamin is an accomplished technology leader with over a decade of experience specializing in architecting and scaling engineering teams to deliver nation-wide digital transformation projects and mission-critical Singapore Government systems.',
+    siteUrl: 'https://benlau.me', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '',
   },
@@ -158,7 +158,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-tagmanager',
       options: {
-        id: 'G-15EBRLPQR1',
+        // id: 'GTM-T7B6ZLFK',
+        id: 'G-0HMSHPY8BP',
 
         // Include GTM in development.
         //
