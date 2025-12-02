@@ -1,0 +1,43 @@
+name: Deploy Website 🕸
+
+on:
+  push:
+    branches:
+      - source
+  workflow_dispatch:
+
+jobs:
+  Build-N-Deploy:
+    concurrency: ci-${{ github.ref }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
+      - name: Get Yarn Cache 🔓 # To get yarn cache path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      - name: Cache Dependencies 🔒 # To cache yarn dependencies
+        uses: actions/cache@v3
+        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - name: Set URL 🔗 # To set repo URL to avoid errors like https://github.com/adithyaakrishna/adithyaakrishna.github.io/issues/83
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+        run: git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          
+      - name: Check Cache 👀 # Checks yarn cache and use it for dependencies install
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: yarn install --frozen-lockfile
+
+      - name: Deploy to GH Pages Branch (main) 🔧 # To deploy website to GH Pages
+        env:
+          NODE_OPTIONS: --openssl-legacy-provider
+        run: npm run deploy
+        continue-on-error: true
