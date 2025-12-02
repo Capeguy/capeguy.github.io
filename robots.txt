@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://benlau.me/sitemap.xml
+Sitemap: https://benlau.me/sitemap/sitemap-index.xml
 Host: https://benlau.me

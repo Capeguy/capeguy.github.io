@@ -1,0 +1,28 @@
+# Benjamin Lau - Personal Website
+
+> Benjamin is an accomplished technology leader with over a decade of experience specializing in architecting and scaling engineering teams to deliver nation-wide digital transformation projects and mission-critical Singapore Government systems.
+
+## Site Information
+
+- Website: https://benlau.me
+- Author: Benjamin Lau
+
+## Main Sections
+
+- Home: https://benlau.me/
+- Certifications: https://benlau.me/certifications/
+- Pensieve (Blog): https://benlau.me/pensieve/
+
+## Blog Topics
+
+The Pensieve section contains technical articles on topics including:
+- Accessibility
+- CSS
+- Dark Mode
+- Docker
+- WordPress
+- Theming
+
+## Full Content
+
+For complete content and detailed information, see: https://benlau.me/llms-full.txt
