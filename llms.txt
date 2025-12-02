@@ -11,17 +11,6 @@
 
 - Home: https://benlau.me/
 - Certifications: https://benlau.me/certifications/
-- Pensieve (Blog): https://benlau.me/pensieve/
-
-## Blog Topics
-
-The Pensieve section contains technical articles on topics including:
-- Accessibility
-- CSS
-- Dark Mode
-- Docker
-- WordPress
-- Theming
 
 ## Full Content
 
