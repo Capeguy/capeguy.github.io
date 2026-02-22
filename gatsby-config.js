@@ -10,6 +10,21 @@ module.exports = {
     twitterUsername: '',
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-datadog',
+      options: {
+        site: 'datadoghq.com',
+        sampleRate: 100,
+        enabled: process.env.NODE_ENV === 'production',
+        rum: {
+          applicationId: 'b2eabe34-331f-481e-9ced-200787975da9',
+          clientToken: 'pubb03d040764cb40f21ce26a92208699d8',
+        },
+        logs: {
+          clientToken: 'pubb03d040764cb40f21ce26a92208699d8',
+        },
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,
