@@ -14,7 +14,14 @@ module.exports = {
       resolve: 'gatsby-plugin-datadog',
       options: {
         site: 'ap1.datadoghq.com',
-        sampleRate: 100,
+        service: 'benlau-me',
+        env: 'production',
+        version: '1.0.0',
+        sessionSampleRate: 100,
+        sessionReplaySampleRate: 20,
+        trackResources: true,
+        trackUserInteractions: true,
+        trackLongTasks: true,
         enabled: process.env.NODE_ENV === 'production',
         rum: {
           applicationId: 'b2eabe34-331f-481e-9ced-200787975da9',
