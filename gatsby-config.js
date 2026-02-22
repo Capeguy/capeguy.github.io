@@ -13,7 +13,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-datadog',
       options: {
-        site: 'datadoghq.com',
+        site: 'ap1.datadoghq.com',
         sampleRate: 100,
         enabled: process.env.NODE_ENV === 'production',
         rum: {
